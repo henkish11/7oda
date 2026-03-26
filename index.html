@@ -1,96 +1,103 @@
-
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Instagram set – Social media – IC #02</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henkish · Space</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
 
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #101010;
+            background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.8)), url('https://xatimg.com/image/AeKGBMT8u33T.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        h1, p {
+            text-align: center;
+            line-height: 1.8;
+            font-family: Lora, serif;
+            margin: 10px 0;
+        }
+
+        .glowIn {
+            color: white;
+            white-space: pre-wrap;
+        }
+
+        .glowIn span {
+            display: inline-block;
+            opacity: 0;
+            animation: glow-in 0.8s both;
+        }
+
+        @keyframes glow-in {
+            from { opacity: 0; }
+            65% { opacity: 1; text-shadow: 0 0 25px white; }
+            75% { opacity: 1; }
+            to { opacity: 0.7; }
+        }
+
+        .videos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            max-width: 1000px;
+            padding: 20px;
+        }
+
+        .videos iframe {
+            width: 200px;
+            height: 135px;
+            border: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .videos iframe:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255,255,255,0.3);
+        }
+    </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!-- Profile -->
-<link href="https://dl.dropbox.com/scl/fi/v0n1sq5gv3ggist9i4789/set_instagram.css?rlkey=l1j71j5vlq9rz4a5uuq0tznon&dl=0" rel="stylesheet" />
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
-<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-<div tag="insta_set" class="insta_profile" style='--accent_1: #dd0887ff; --accent_2: #8f16a5ff; --gradient_1: linear-gradient(45deg, var(--accent_1), var(--accent_2));'>
-<div tag="insta_icons_header"><b>10:50</b><i class="ph ph-cell-signal-full"></i><i class="ph ph-wifi-high"></i><i class="ph ph-battery-high"></i></div>
-<div tag="insta_header">
-<div><i class="ph-bold ph-plus-circle"></i><strong><img src="https://placehold.jp/ccc/ffffff/100x100.png"></strong><i class="ph-bold ph-chat-circle" style="transform: scaleX(-1);"></i></div>
-<span>нєηкιѕн</span>
-<description> I'm xats trader and I love trading very much and selling and buying ID's
-<description> iEgypt (106080) ❤️ DodoLove14 (1541187216)
-<description> нєηкιѕн ❤️ ժօLLվ
-<b>#Tagged #Tagged #Tagged</b></description>
-<stats>
-<span><b>100</b>Posts</span>
-<span><b>30K</b>Followers</span>
-<span><b>2k</b>Following</span>
-</stats>
-<a>follow</a></div>
-<div tag="insta_tabs"><b class="active"><i class="ph ph-squares-four"></i> POSTS</b><b><i class="ph ph-video"></i> REELS</b><b><i class="ph ph-hash-straight"></i> TAGGED</b></div>
-<div tag="insta_photo_set">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-<img src="https://placehold.jp/ccc/ffffff/115x115.png">
-</div>
-<div tag="insta_footer"><i class="ph ph-house"></i><i class="ph ph-magnifying-glass"></i><i class="ph ph-instagram-logo especial"></i><i class="ph ph-heart"></i><i class="ph ph-user-circle active"></i></div>
-</div>
+    <h1 class="glowIn">Hello,ժօLLվ ,</h1>
+    <p class="glowIn">I'm xats trader and I love trading very much and selling and buying ID's</p>
+    <p class="glowIn">iEgypt (106080) ❤️ DodoLove14 (1541187216)</p>
+    <p class="glowIn">нєηкιѕн ❤️ ժօLLվ</p>
 
+    <div class="videos">
+        <iframe src="https://www.youtube.com/embed/4ulSR860HyU"></iframe>
+        <iframe src="https://www.youtube.com/embed/b-KFYv7cuxk"></iframe>
+        <iframe src="https://www.youtube.com/embed/OoyK4I3DyJ0"></iframe>
+    </div>
 
-
-<!-- Photo post -->
-<link href="https://dl.dropbox.com/scl/fi/v0n1sq5gv3ggist9i4789/set_instagram.css?rlkey=l1j71j5vlq9rz4a5uuq0tznon&dl=0" rel="stylesheet" />
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
-<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-<div tag="insta_set"  style='--accent_1: #dd0887ff; --accent_2: #8f16a5ff; --gradient_1: linear-gradient(45deg, var(--accent_1), var(--accent_2));'>
-<div tag="insta_icons_header"><b>10:50</b><i class="ph ph-cell-signal-full"></i><i class="ph ph-wifi-high"></i><i class="ph ph-battery-high"></i></div>
-<div tag="insta_header"><i class="ph-bold ph-plus-circle"></i><strong>Instagram</strong><i class="ph-bold ph-chat-circle" style="transform: scaleX(-1);"></i></div>
-<div tag="insta_content">
-<div tag="insta_author">
-<img src="https://placehold.jp/ccc/ffffff/40x40.png" />
-<strong>нєηкιѕн <time>location, 20 min ago</time></strong>
-<i class="ph ph-paper-plane-tilt"></i><i class="ph ph-circles-four"></i>
-</div>
-<div tag="insta_photo">
-<img src="https://placehold.jp/ccc/ffffff/350x350.png" />
-<likes><i class="ph-fill ph-heart"></i><b>345</b><i class="ph ph-chat-teardrop-dots"></i><i class="ph ph-bookmark-simple"></i></likes>
-<description><span>нєηкιѕн</span> Incidunt eaque ad quibusdam voluptas eius laboriosam ratione magni eveniet obcaecati, explicabo tenetur atque quia natus, exercitationem iusto ducimus doloribus veniam commodi!</description>
-</div>
-</div>
-<div tag="insta_footer"><i class="ph ph-house active"></i><i class="ph ph-magnifying-glass"></i><i class="ph ph-instagram-logo especial"></i><i class="ph ph-heart"></i><i class="ph ph-user-circle"></i></div>
-</div>
-
-
-
-<!-- Reel -->
-<link href="https://dl.dropbox.com/scl/fi/v0n1sq5gv3ggist9i4789/set_instagram.css?rlkey=l1j71j5vlq9rz4a5uuq0tznon&dl=0" rel="stylesheet" />
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
-<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-<div tag="insta_set"  style='--accent_1: #dd0887ff; --accent_2: #8f16a5ff; --gradient_1: linear-gradient(45deg, var(--accent_1), var(--accent_2));'>
-<div tag="insta_icons_header" style="flex-wrap:wrap;"><t></t><t></t><t></t></div>
-<div tag="insta_reels">
-<div tag="insta_author">
-<img src="https://placehold.jp/ccc/ffffff/40x40.png" />
-<strong style="flex-direction: row; gap: 5px;">Your_name.here <time>20 min ago</time></strong><i class="ph ph-dots-three-outline"></i><i class="ph ph-x"></i>
-</div>
-<img src="https://placehold.jp/666/ffffff/400x550.png">
-<div tag="insta_extra">
-<text>нєηкιѕн</text>
-<i class="ph-fill ph-heart"></i><i class="ph ph-paper-plane-tilt"></i>
-</div>
-</div>
-</div>
-<!-- partial -->
-  
+    <script>
+        "use strict";
+        let glowInTexts = document.querySelectorAll(".glowIn");
+        glowInTexts.forEach(glowInText => {
+            let letters = glowInText.textContent.split("");
+            glowInText.textContent = "";
+            letters.forEach((letter, i) => {
+                let span = document.createElement("span");
+                span.textContent = letter;
+                span.style.animationDelay = `${i * 0.05}s`;
+                glowInText.append(span);
+            });
+        });
+    </script>
 </body>
 </html>
